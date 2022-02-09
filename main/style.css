@@ -83,6 +83,5 @@ font-size: 16px;
 }
 
 .post-new-area textarea{
-  /* background-color: #fff; */
-  color: #fff;
+  background-color: transparent;
 }

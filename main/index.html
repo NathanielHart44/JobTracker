@@ -13,8 +13,8 @@
       <nav>
       <div class="nav-links">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">All Jobs</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="show_info.html">All Jobs</a></li>
           <li><a href="">Stats</a></li>
         </ul>
       </div>
@@ -27,16 +27,16 @@
       </div>
     <div class="post-new-area">
       <h1 class="sub-title">Add a new job post/application here</h1>
-      <form class="post-new-job" action="index.html" method="post">
-        <input type="text" name="company-name" placeholder="Company Name"><br>
-        <input type="text" name="job-title" placeholder="Job Title"><br>
-        <input type="text" name="job-url" placeholder="URL"><br>
-        <textarea name="Misc Notes" rows="4" cols="50" placeholder="Misc Notes"></textarea><br>
-          <input type="radio" id="job-found" name="job-status" onclick=0>
+      <form class="post-new-job" action="/info_sent.html" onsubmit="" method="post">
+        <input type="text" name="company_name" placeholder="Company Name"><br>
+        <input type="text" name="job_title" placeholder="Job Title"><br>
+        <input type="text" name="job_url" placeholder="URL"><br>
+        <textarea id="misc_notes" name="misc_notes" rows="4" cols="50" placeholder="Misc Notes"></textarea><br>
+          <input type="radio" name="job_status" value="1" onclick=0>
           <label for="job-status">Job Found</label><br>
-          <input type="radio" id="job-applied" name="job-status" onclick=0>
+          <input type="radio" name="job_status" value="2" onclick=0>
           <label for="job-status">Job Applied</label><br>
-          <input type="radio" id="job-interviewed" name="job-status" onclick=0>
+          <input type="radio" name="job_status" value="3" onclick=0>
           <label for="job-status">Job Interviewed</label><br>
         <input type="submit" name="submit" value="Submit">
       </form>
