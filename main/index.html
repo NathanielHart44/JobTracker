@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JobTracker</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+      <div class="nav-links">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">All Jobs</a></li>
+          <li><a href="">Stats</a></li>
+        </ul>
+      </div>
+      </nav>
+      <div class="title">
+        <h1 class="main-title">JobTracker</h1>
+      </div>
+      <div class="break">
+
+      </div>
+    <div class="post-new-area">
+      <h1 class="sub-title">Add a new job post/application here</h1>
+      <form class="post-new-job" action="index.html" method="post">
+        <input type="text" name="company-name" placeholder="Company Name"><br>
+        <input type="text" name="job-title" placeholder="Job Title"><br>
+        <input type="text" name="job-url" placeholder="URL"><br>
+        <textarea name="Misc Notes" rows="4" cols="50" placeholder="Misc Notes"></textarea><br>
+          <input type="radio" id="job-found" name="job-status" onclick=0>
+          <label for="job-status">Job Found</label><br>
+          <input type="radio" id="job-applied" name="job-status" onclick=0>
+          <label for="job-status">Job Applied</label><br>
+          <input type="radio" id="job-interviewed" name="job-status" onclick=0>
+          <label for="job-status">Job Interviewed</label><br>
+        <input type="submit" name="submit" value="Submit">
+      </form>
+    </div>
+    </section>
+  </body>
+</html>

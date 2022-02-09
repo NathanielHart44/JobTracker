@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 10;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  min-height: 150vh;
+  width: 100%;
+  background: linear-gradient(#9198e5, #e66465);
+  /* background-image: url(./images/byu_campus.jpeg); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  padding: 1% 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 4px 8px;
+  position: relative;
+}
+
+.nav-links ul li a{
+text-decoration: none;
+color: #114015;
+font-size: 16px;
+}
+
+.header h1[class="main-title"]{
+  font-size: 48px;
+  color: #114015;
+  text-align: center;
+  padding-bottom: 250px;
+}
+
+.post-new-area{
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  background: transparent;
+  width: 100%;
+  display: inline-block;
+  vertical-align: justify;
+  color: #114015;
+}
+
+.post-new-area h1[class="sub-title"]{
+  padding-bottom: 2%;
+}
+
+.post-new-area input{
+  padding-bottom: 0.25%;
+  background-color: transparent;
+}
+
+.post-new-area input[type="text"]{
+  background-color: transparent;
+  color: #114015;
+  margin-right: 2px;
+}
+
+.post-new-area input[type="radio"]{
+  background-color: transparent;
+  color: #114015;
+  margin-right: 2px;
+}
+
+.post-new-area input[type="text"]::placeholder{
+  color: #114015;
+}
+
+.post-new-area textarea{
+  /* background-color: #fff; */
+  color: #fff;
+}
